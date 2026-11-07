@@ -1,9 +1,0 @@
-# EssentialsLeve: configuracoes gerais
-rtp:
-  raio-minimo: 150
-  raio-maximo: 3000
-  espera-segundos: 3
-  cooldown-segundos: 30
-tpa:
-  expiracao-segundos: 60
-homes: {}
