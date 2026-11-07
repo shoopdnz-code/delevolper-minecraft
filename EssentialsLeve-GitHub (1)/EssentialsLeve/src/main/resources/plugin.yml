@@ -1,0 +1,36 @@
+name: EssentialsLeve
+version: '1.0.0'
+main: br.com.elomid.essentialsleve.EssentialsLeve
+api-version: '1.21'
+author: Elomid
+commands:
+  rtpgui:
+    description: Abre o menu de teleporte aleatorio.
+    usage: /rtpgui
+  tpa:
+    description: Solicita teleporte ate outro jogador.
+    usage: /tpa <jogador>
+  tpahere:
+    description: Solicita que outro jogador venha ate voce.
+    usage: /tpahere <jogador>
+  tpaccept:
+    description: Aceita o ultimo pedido de teleporte.
+    usage: /tpaccept
+  home:
+    description: Teleporta para sua home.
+    usage: /home
+  sethome:
+    description: Define sua home.
+    usage: /sethome
+  delhome:
+    description: Remove sua home.
+    usage: /delhome
+permissions:
+  essentialsleve.rtp:
+    default: true
+  essentialsleve.rtp.bypass:
+    default: op
+  essentialsleve.tpa:
+    default: true
+  essentialsleve.home:
+    default: true
